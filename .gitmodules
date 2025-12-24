@@ -1,0 +1,3 @@
+[submodule "Projects/ProofsLab"]
+	path = Projects/ProofsLab
+	url = https://github.com/siddhartha-gadgil/proofs_with_verbose_lean

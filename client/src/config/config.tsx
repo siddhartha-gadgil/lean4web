@@ -2,19 +2,14 @@ import { LeanWebConfig } from './docs' // look here for documentation of the ind
 
 const lean4webConfig : LeanWebConfig = {
   "projects": [
-    { "folder": "MathlibDemo",
-      "name": "Latest Mathlib",
+    { "folder": "ProofsLab",
+      "name": "Proofs Lab with Verbose Lean",
       "examples": [
-        { "file": "MathlibDemo/Bijection.lean",
-          "name": "Bijection" },
-        { "file": "MathlibDemo/Logic.lean",
-          "name": "Logic" },
-        { "file": "MathlibDemo/Ring.lean",
-          "name": "Ring" },
-        { "file": "MathlibDemo/Rational.lean",
-          "name": "Rational" }]},
+        { "file": "Exercises/f01_equalities_inequalities.lean",
+          "name": "Inequalities and Equalities" }
+        ]},
     { "folder": "Stable",
-      "name": "Stable Lean" },
+      "name": "Stable Lean" }
   ],
   "serverCountry": null,
   "contactDetails": null,
